@@ -1,0 +1,41 @@
+// app global css in SCSS form
+// app global css in SCSS form
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins/Poppins-Regular.ttf") format("truetype"),
+    url("./fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+  font-display: swap;
+}
+
+* {
+  font-family: "Poppins";
+  font-style: normal;
+  margin: 0;
+}
+.title-style,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins";
+  line-height: normal;
+  margin: 0;
+}
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+  margin: 0;
+}
+h2 {
+  font-weight: 600;
+  font-size: 30px;
+  margin: 0;
+}
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+}
