@@ -32,34 +32,34 @@
             </p>
 
             Links de estudo:
-<p>
-            <ul>
-              <li>
-                <a
-                  class="about__links"
-                  target="_blank"
-                  href="https://rickandmortyapi.com/"
-                  >The Rick and Morty API</a
-                >
-              </li>
-              <li>
-                <a
-                  class="about__links"
-                  target="_blank"
-                  href="https://v4.apollo.vuejs.org/"
-                  >Vue Apollo</a
-                >
-              </li>
-              <li>
-                <a
-                  class="about__links"
-                  target="_blank"
-                  href="https://www.apollographql.com/docs/react/"
-                  >Apollo Client</a
-                >
-              </li>
-            </ul>
-</p>
+            <p>
+              <ul>
+                <li>
+                  <a
+                    class="about__links"
+                    target="_blank"
+                    href="https://rickandmortyapi.com/"
+                    >The Rick and Morty API</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="about__links"
+                    target="_blank"
+                    href="https://v4.apollo.vuejs.org/"
+                    >Vue Apollo</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="about__links"
+                    target="_blank"
+                    href="https://www.apollographql.com/docs/react/"
+                    >Apollo Client</a
+                  >
+                </li>
+              </ul>
+            </p>
             <small
               >Hospedado na
               <a class="about__links" href="https://vercel.com" target="_blank"
