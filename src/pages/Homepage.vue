@@ -36,6 +36,7 @@
           v-model="current"
           :max="result.characters.info.pages"
           :max-pages="10"
+          boundary-numbers
           direction-links
           @click="setPage(current)"
         />
@@ -53,6 +54,7 @@
           v-model="current"
           :max="result.characters.info.pages"
           :max-pages="10"
+          boundary-numbers
           direction-links
           @click="setPage(current)"
         />
