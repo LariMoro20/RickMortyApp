@@ -34,7 +34,8 @@
         <q-pagination
           class="pagination"
           v-model="current"
-          :max="10"
+          :max="result.characters.info.pages"
+          :max-pages="10"
           direction-links
           @click="setPage(current)"
         />
@@ -50,7 +51,8 @@
         <q-pagination
           class="pagination primary"
           v-model="current"
-          :max="10"
+          :max="result.characters.info.pages"
+          :max-pages="10"
           direction-links
           @click="setPage(current)"
         />
