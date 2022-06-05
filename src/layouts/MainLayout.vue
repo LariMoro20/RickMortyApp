@@ -1,7 +1,7 @@
 <template>
   <q-layout view="lHh Lpr lFf" class="pages_color">
     <Header />
-    <q-page-container class="bg-secondary">
+    <q-page-container class="bg-primary">
       <router-view :key="$route.fullPath" />
     </q-page-container>
     <Footer />

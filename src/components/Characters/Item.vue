@@ -2,14 +2,14 @@
   <div class="flip-container full-width">
     <div class="flipper character__character">
       <div
-        class="front q-pa-xl bg-black text-white text-center flex characters-center column items-center"
+        class="front q-pa-xl bg-secondary text-white text-center flex characters-center column items-center"
       >
         <div>
           <img :src="character.image" class="character__item-image" />
           <h5 class="q-ma-none">{{ character.name }}</h5>
         </div>
       </div>
-      <div class="back bg-black col-12">
+      <div class="back bg-secondary col-12">
         <div class="character__character-content col-12 text-white q-pa-md">
           <p>
             Espécie: {{ character.species }}<br />
@@ -42,7 +42,7 @@ export default defineComponent({
 </script>
 <style scoped>
 .character__character-content p {
-  font-size: 1.3em;
+  font-size: 1em;
 }
 .character__item {
   background-color: black;

@@ -5,7 +5,7 @@
       <h6>Pagina {{ current }}</h6>
     </div>
     <div class="q-pa-md row" v-if="result && result.characters">
-      <div class="q-pa-lg flex flex-center col-12">
+      <div class="q-pa-sm flex flex-center col-12 bg-secondary">
         <q-pagination
           class="pagination"
           v-model="current"
@@ -20,9 +20,9 @@
       >
         <Item :character="item" />
       </div>
-      <div class="q-pa-lg flex flex-center col-12">
+      <div class="q-pa-sm flex flex-center col-12 bg-secondary">
         <q-pagination
-          class="pagination"
+          class="pagination primary"
           v-model="current"
           @click="setPage(current)"
           :max="result.characters.info.pages"
@@ -41,7 +41,7 @@
       :offset="[18, 18]"
       :duration="800"
     >
-      <q-btn fab icon="keyboard_arrow_up" color="primary" />
+      <q-btn fab icon="keyboard_arrow_up" color="secondary" />
     </q-page-scroller>
   </q-page>
 </template>
