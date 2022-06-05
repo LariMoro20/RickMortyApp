@@ -2,7 +2,7 @@
   <div class="flip-container full-width">
     <div class="flipper character__character">
       <div
-        class="front q-pa-xl bg-secondary text-white text-center flex characters-center column items-center"
+        class="front q-pa-lg bg-secondary text-white text-center flex characters-center column items-center"
       >
         <div>
           <img :src="character.image" class="character__item-image" />
@@ -48,7 +48,7 @@ export default defineComponent({
   background-color: black;
 }
 .character__item-image {
-  width: 300px;
+  width: 400px;
   max-width: 100%;
 }
 .flip-container {
