@@ -32,7 +32,7 @@
             </p>
 
             Links de estudo:
-
+<p>
             <ul>
               <li>
                 <a
@@ -59,12 +59,7 @@
                 >
               </li>
             </ul>
-
-            <p>
-              Este projeto foi desenvolvido com objetivo de composição de
-              portfólio e exercicio de conhecimentos em frontend.
-            </p>
-
+</p>
             <small
               >Hospedado na
               <a class="about__links" href="https://vercel.com" target="_blank"
