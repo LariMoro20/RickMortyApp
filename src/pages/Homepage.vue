@@ -35,7 +35,7 @@
           class="pagination"
           v-model="current"
           :max="result.characters.info.pages"
-          :max-pages="10"
+          :max-pages="8"
           boundary-numbers
           direction-links
           @click="setPage(current)"
@@ -53,7 +53,7 @@
           class="pagination primary"
           v-model="current"
           :max="result.characters.info.pages"
-          :max-pages="10"
+          :max-pages="8"
           boundary-numbers
           direction-links
           @click="setPage(current)"
