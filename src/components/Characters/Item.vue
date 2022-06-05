@@ -19,7 +19,7 @@
             <li><b>Gênero:</b> {{ character.gender }}</li>
             <li><b>Status:</b> {{ character.status }}</li>
             <li><b>Origem:</b> {{ character.origin.name }}</li>
-            <li><b>Dimenção Origem:</b> {{ character.origin.dimension }}</li>
+            <li><b>Dimensão:</b> {{ character.origin.dimension }}</li>
             <li><b>Data de criação:</b> {{ character.created }}</li>
           </ul>
         </div>
