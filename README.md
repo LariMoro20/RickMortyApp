@@ -26,10 +26,8 @@ quasar dev
 
 ```bash
 quasar build
-```
-
-Após, na pasta dist/spa rodar:
-
-```bash
+cd dist/spa
 quasar serve
 ```
+
+Made with :heart: by [Larissa Santos](https://larissa-santos.vercel.app/)
