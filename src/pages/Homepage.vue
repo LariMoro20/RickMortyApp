@@ -14,7 +14,7 @@
         />
       </div>
       <div
-        class="col-md-3 col-6 q-pa-md character"
+        class="col-md-3 col-sm-12 col-12 q-pa-md character"
         v-for="(item, key) in result.characters.results"
         :key="key"
       >
