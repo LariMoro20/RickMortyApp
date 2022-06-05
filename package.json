@@ -13,6 +13,7 @@
   "dependencies": {
     "@apollo/client": "^3.6.6",
     "@quasar/extras": "^1.0.0",
+    "@vue/apollo-composable": "^4.0.0-alpha.17",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "graphql": "^16.5.0",
