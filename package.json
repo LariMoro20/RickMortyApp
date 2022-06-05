@@ -11,49 +11,18 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@apollo/client": {
-      "version": "3.6.6",
-      "resolved": "https://registry.npmjs.org/@apollo/client/-/client-3.6.6.tgz",
-      "integrity": "sha512-AzNLN043wy0bDTTR9wzKYSu+I1IT2Ox3+vWckxgIt88Jfw5jHBvumf3lXE1JlgvbFCTiKS/Sa66AadQXWMVBRQ==",
-      "requires": {
-        "@graphql-typed-document-node/core": "^3.1.1",
-        "@wry/context": "^0.6.0",
-        "@wry/equality": "^0.5.0",
-        "@wry/trie": "^0.3.0",
-        "graphql-tag": "^2.12.6",
-        "hoist-non-react-statics": "^3.3.2",
-        "optimism": "^0.16.1",
-        "prop-types": "^15.7.2",
-        "symbol-observable": "^4.0.0",
-        "ts-invariant": "^0.10.3",
-        "tslib": "^2.3.0",
-        "zen-observable-ts": "^1.2.5"
-      }
-    },
-    "@graphql-typed-document-node/core": {
-      "version": "3.1.1",
-      "resolved": "https://registry.npmjs.org/@graphql-typed-document-node/core/-/core-3.1.1.tgz",
-      "integrity": "sha512-NQ17ii0rK1b34VZonlmT2QMJFI70m0TRwbknO/ihlbatXyaktDhN/98vBiUU6kNBPljqGqyIrl2T4nY2RpFANg=="
-    },
-    "@vue/apollo-composable": {
-      "version": "4.0.0-alpha.17",
-      "resolved": "https://registry.npmjs.org/@vue/apollo-composable/-/apollo-composable-4.0.0-alpha.17.tgz",
-      "integrity": "sha512-Wsx73CSEbk4EqlpxV+5S4u0gZH4V4oCqy6Q0IS8JR7Wn8PjrM8mIKNL1JtRErUOzkQHgVHbBftzDMt0Fi39QFA==",
-      "requires": {
-        "throttle-debounce": "^3.0.1",
-        "ts-essentials": "^9.0.0",
-        "vue-demi": "^0.12.5"
-      }
-    },
+    "@apollo/client": "^3.6.6",
     "@quasar/extras": "^1.0.0",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
+    "graphql": "^16.5.0",
+    "graphql-tag": "^2.12.6",
     "quasar": "^2.0.0",
     "react": "^18.1.0",
     "vue": "^3.0.0",
     "vue-i18n": "^9.0.0",
     "vue-router": "^4.0.0",
-    "vuex": "^4.0.1",
+    "vuex": "^4.0.1"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.13.14",
