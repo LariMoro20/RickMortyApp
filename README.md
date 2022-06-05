@@ -4,7 +4,7 @@ Aplicação exibe todos os personagens da série Rick and Morty com imagens e de
 
 Para visualizar a aplicação: https://rickmorty-larisantos.vercel.app/
 
-![imagem](https://github.com/LariMoro20/RickMortyApp/blob/main/screenshot.png)
+![imagem](https://github.com/LariMoro20/RickMortyApp/blob/main/screenshot2.png)
 
 ## Tecnologias :books:
 
