@@ -34,8 +34,9 @@
         <q-pagination
           class="pagination"
           v-model="current"
+          :max="10"
+          direction-links
           @click="setPage(current)"
-          :max="result.characters.info.pages"
         />
       </div>
       <div
@@ -49,8 +50,9 @@
         <q-pagination
           class="pagination primary"
           v-model="current"
+          :max="10"
+          direction-links
           @click="setPage(current)"
-          :max="result.characters.info.pages"
         />
       </div>
     </div>
