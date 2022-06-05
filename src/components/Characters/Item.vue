@@ -11,17 +11,17 @@
       </div>
       <div class="back bg-secondary col-12">
         <div class="character__character-content col-12 text-white q-pa-md">
-          <p>
-            Espécie: {{ character.species }}<br />
-            Gênero: {{ character.gender }}<br />
-            Status: {{ character.status }}<br />
-            Origem: {{ character.origin.name }}<br />
-            Dimenção Origem: {{ character.origin.dimension }}<br />
-            Localização: {{ character.location.name }}<br />
-            Dimenção Localização: {{ character.location.dimension }}<br />
-
-            Data de criação: {{ character.created }}<br />
-          </p>
+          <div class="text-center">
+            <h6 class="q-ma-none">Informações</h6>
+          </div>
+          <ul class="q-pa-md">
+            <li><b>Espécie:</b> {{ character.species }}</li>
+            <li><b>Gênero:</b> {{ character.gender }}</li>
+            <li><b>Status:</b> {{ character.status }}</li>
+            <li><b>Origem:</b> {{ character.origin.name }}</li>
+            <li><b>Dimenção Origem:</b> {{ character.origin.dimension }}</li>
+            <li><b>Data de criação:</b> {{ character.created }}</li>
+          </ul>
         </div>
       </div>
     </div>

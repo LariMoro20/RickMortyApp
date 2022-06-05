@@ -1,8 +1,7 @@
 <template>
   <q-page class="flex-center row">
-    <div class="q-pa-md text-white text-center">
+    <div class="q-pa-sm text-white text-center">
       <h2>Personagens da série Rick and Morty</h2>
-      <!---->
       <q-dialog v-model="loading">
         <q-card class="text-center bg-black text-white">
           <q-card-section>
@@ -25,7 +24,9 @@
           </q-card-section>
         </q-card>
       </q-dialog>
-      <h6>Pagina {{ current }}</h6>
+      <p v-if="result && result.characters" class="q-ma-none">
+        Pagina {{ current }}
+      </p>
     </div>
 
     <div class="q-pa-md row" v-if="result && result.characters">
