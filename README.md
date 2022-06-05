@@ -6,7 +6,7 @@ Para visualizar a aplicação: https://rickmorty-larisantos.vercel.app/
 
 ![imagem](https://github.com/LariMoro20/RickMortyApp/blob/main/screenshot.png)
 
-## Tecnologias
+## :books: Tecnologias
 
 - Vue 3 -> https://vuejs.org/
 - Quasar framework -> https://quasar.dev/
@@ -15,7 +15,7 @@ Para visualizar a aplicação: https://rickmorty-larisantos.vercel.app/
 - Rick and Morty API -> https://rickandmortyapi.com
 - Remix Icon -> https://remixicon.com/
 
-## Instalação
+## :hammer: Instalação
 
 ```bash
 npm install
