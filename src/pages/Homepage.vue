@@ -41,7 +41,7 @@
       :offset="[18, 18]"
       :duration="800"
     >
-      <q-btn fab icon="keyboard_arrow_up" color="secondary" />
+      <q-btn fab icon="keyboard_arrow_up" color="accent" />
     </q-page-scroller>
   </q-page>
 </template>
