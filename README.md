@@ -35,4 +35,10 @@ cd dist/spa
 quasar serve
 ```
 
+## Créditos :star:
+
+- [Imagem: Logotipo](https://logosmarcas.net/rick-and-morty-logo/)
+- [Fontes Google Poppins](https://fonts.google.com/specimen/Poppins)
+- [Remix Icon](https://remixicon.com/)
+
 Made with :heart: by [Larissa Santos](https://larissa-santos.vercel.app/)
