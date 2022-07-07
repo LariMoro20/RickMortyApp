@@ -14,6 +14,14 @@ Para visualizar a aplicação: https://rickmorty-larisantos.vercel.app/
 - Vue Apollo -> https://v4.apollo.vuejs.org/
 - Rick and Morty API -> https://rickandmortyapi.com
 - Remix Icon -> https://remixicon.com/
+<div style="display:flex">
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain-wordmark.svg" style="width:30px"/>
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg" style="width:30px"  />
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="width:30px" />
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" style="width:30px"/>
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" style="width:30px"/>
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" style="width:30px"/>
+</div>
 
 ## Instalação :hammer:
 
