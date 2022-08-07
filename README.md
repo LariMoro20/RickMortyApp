@@ -6,7 +6,7 @@ Para visualizar a aplicação: https://rickmorty-larisantos.vercel.app/
 
 ![imagem](https://github.com/LariMoro20/RickMortyApp/blob/main/screenshot2.png)
 
-## Tecnologias :books:
+## :books: Tecnologias
 
 - Vue 3 -> https://vuejs.org/
 - Quasar framework -> https://quasar.dev/
@@ -23,7 +23,7 @@ Para visualizar a aplicação: https://rickmorty-larisantos.vercel.app/
  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" style="width:30px"/>
 </div>
 
-## Instalação :hammer:
+## :hammer: Instalação 
 
 ```bash
 npm install
@@ -43,10 +43,13 @@ cd dist/spa
 quasar serve
 ```
 
-## Créditos :star:
+## :star: Créditos
 
 - [Imagem: Logotipo](https://logosmarcas.net/rick-and-morty-logo/)
 - [Fontes Google Poppins](https://fonts.google.com/specimen/Poppins)
 - [Remix Icon](https://remixicon.com/)
+
+## :clipboard: Licença
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 Made with :heart: by [Larissa Santos](https://larissa-santos.vercel.app/)
